@@ -1,0 +1,116 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="./public/fontawesome/css/fontawesome.css" />
+    <link rel="stylesheet" href="./public/fontawesome/css/solid.css" />
+    <link rel="stylesheet" href="./public/fontawesome/css/brands.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="#" />
+
+    <title>New Tab</title>
+
+    <style>
+      .image {
+        background-image: url("./public/images/coffee.jpg");
+        background-position: center;
+        background-size: cover;
+      }
+    </style>
+
+    <script src="./scripts/getTime.js" async></script>
+    <script src="./scripts/weather.js" async></script>
+  </head>
+  <body
+    class="grid grid-cols-6 grid-rows-4 p-16 gap-16 text-white bg-darkbrown min-h-screen"
+  >
+    <div
+      class="bg-brown col-span-2 row-span-2 flex justify-center items-center flex-col"
+    >
+      <p class="font-mono text-6xl font-black" id="time"></p>
+      <p class="font-mono text-xl mt-2" id="date"></p>
+    </div>
+
+    <div class="bg-orange"></div>
+
+    <div
+      class="flex items-center justify-between p-4 bg-white text-darkbrown col-span-3"
+    >
+      <div class="flex items-center">
+        <img id="weatherIcon" src="" />
+        <div>
+          <p id="cityName" class="font-mono text-xl font-black"></p>
+          <p id="weatherDescription" class="font-mono"></p>
+        </div>
+      </div>
+      <div id="temp" class="font-mono text-6xl"></div>
+    </div>
+
+    <div class="bg-orange"></div>
+
+    <a
+      href="https://youtube.com"
+      class="bg-white text-darkbrown text-8xl flex justify-center items-center"
+    >
+      <i class="fa-brands fa-youtube"></i>
+    </a>
+
+    <div class="bg-orange"></div>
+
+    <a
+      href="https://github.com"
+      class="bg-white text-darkbrown text-8xl flex justify-center items-center"
+    >
+      <i class="fa-brands fa-github"></i>
+    </a>
+
+    <a
+      href="https://reddit.com"
+      class="bg-white text-darkbrown text-8xl flex justify-center items-center"
+    >
+      <i class="fa-brands fa-reddit"></i>
+    </a>
+
+    <div class="bg-brown col-span-2 flex justify-center items-center">
+      <p class="font-mono text-2xl font-black" id="greeting"></p>
+    </div>
+
+    <div class="col-span-2 row-span-2 image"></div>
+
+    <div class="bg-brown row-span-2 p-4">
+      <h1 class="mb-2 font-mono font-black text-lg">Quick Links</h1>
+      <ul class="space-y-1">
+        <li>
+          <a href="https://docs.astro.build/en/getting-started/">astro docs</a>
+        </li>
+        <li>
+          <a href="https://reddit.com/r/unixporn">r/unixporn</a>
+        </li>
+        <li>
+          <a href="https://reddit.com/r/neovim/new">r/neovim</a>
+        </li>
+        <li>
+          <a href="https://drive.google.com">google drive</a>
+        </li>
+        <li>
+          <a href="https://classroom.google.com/u/1/">google classrooms</a>
+        </li>
+        <li>
+          <a href="https://app.daily.dev/">daily.dev</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="bg-orange"></div>
+
+    <a
+      href="https://mail.google.com/mail/u/0/"
+      class="bg-white text-darkbrown text-8xl flex justify-center items-center"
+    >
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+
+    <div class="bg-orange"></div>
+  </body>
+</html>
