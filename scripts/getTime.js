@@ -5,7 +5,7 @@ const time = today.toLocaleString("en-US", {
   hour12: true,
 });
 const date = today.toLocaleString("en-US", {
-  weekday: "long",
+  weekday: "short",
   year: "numeric",
   month: "long",
   day: "numeric",
