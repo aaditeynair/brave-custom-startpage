@@ -755,3 +755,12 @@ video {
 .image {
   border: 3px solid black;
 }
+
+#cityName,
+#weatherDescription {
+  -webkit-text-stroke: 1.2px black;
+}
+
+#temp {
+  -webkit-text-stroke: 1.5px black;
+}
