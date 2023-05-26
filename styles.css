@@ -742,7 +742,8 @@ video {
   text-decoration-line: underline;
 }
 
-div {
+div,
+a {
   border-radius: 10px;
 }
 
