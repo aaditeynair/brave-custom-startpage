@@ -13,6 +13,7 @@
 
     <script src="./scripts/getTime.js" async></script>
     <script src="./scripts/weather.js" async></script>
+    <script src="./scripts/quotes.js" async></script>
   </head>
   <body
     class="grid grid-cols-6 grid-rows-4 p-16 gap-16 text-white bg-darkbrown min-h-screen"
@@ -68,7 +69,12 @@
       <p class="font-mono text-4xl font-black" id="greeting"></p>
     </div>
 
-    <div class="col-span-2 bg-white row-span-2 image"></div>
+    <div
+      class="bg-brown col-span-2 row-span-2 flex p-4 justify-center items-center flex-col"
+    >
+      <p class="font-mono text-2xl font-black" id="quote"></p>
+      <p class="font-mono text-lg mt-2" id="author"></p>
+    </div>
 
     <div class="bg-white row-span-2 p-4 text-darkbrown">
       <h1 class="mb-2 font-mono font-black text-lg">Quick Links</h1>

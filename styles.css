@@ -617,25 +617,25 @@ video {
 
 .bg-darkbrown {
   --tw-bg-opacity: 1;
-  background-color: rgb(250 244 237 / var(--tw-bg-opacity));
+  background-color: rgb(31 31 40 / var(--tw-bg-opacity));
 }
 
 .bg-brown {
   --tw-bg-opacity: 1;
-  background-color: rgb(97 135 116 / var(--tw-bg-opacity));
-  border: 3px solid black;
+  background-color: rgb(160 113 120 / var(--tw-bg-opacity));
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .bg-orange {
   --tw-bg-opacity: 1;
-  background-color: rgb(97 135 116 / var(--tw-bg-opacity));
-  border: 3px solid black;
+  background-color: rgb(31 31 40 / var(--tw-bg-opacity));
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(250 244 237 / var(--tw-bg-opacity));
-  border: 3px solid black;
+  background-color: rgb(160 113 120 / var(--tw-bg-opacity));
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .bg-black {
@@ -730,37 +730,22 @@ video {
 
 .text-white {
   --tw-text-opacity: 1;
-  color: rgb(249 245 215 / var(--tw-text-opacity));
+  color: rgb(31 31 40 / var(--tw-text-opacity));
 }
 
 .text-darkbrown {
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-bg-opacity));
+  color: rgb(31 31 40 / var(--tw-bg-opacity));
 }
 
 .underline {
   text-decoration-line: underline;
 }
 
-#time {
-  -webkit-text-stroke: 2px black;
+div {
+  border-radius: 10px;
 }
 
-#greeting,
-#date {
-  -webkit-text-stroke: 1.5px black;
-  font-weight: bold;
-}
-
-.image {
-  border: 3px solid black;
-}
-
-#cityName,
-#weatherDescription {
-  -webkit-text-stroke: 1.2px black;
-}
-
-#temp {
-  -webkit-text-stroke: 1.5px black;
+#quote {
+  text-align: center;
 }
