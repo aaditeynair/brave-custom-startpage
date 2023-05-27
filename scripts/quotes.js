@@ -1,6 +1,6 @@
 async function getQuote() {
   const response = await fetch(
-    "https://api.quotable.io/quotes/random?maxLength=20"
+    "https://api.quotable.io/quotes/random?maxLength=40"
   );
   return response.json();
 }
